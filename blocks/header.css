@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0 5% 0;
+  min-height: 100%;
+  background-color: #2a2c2f;
+}
+
+.header__title {
+  margin: 40px 0 32px 0;
+  font-size: 96px;
+  line-height: 1.04;
+  text-align: center;
+  width: calc(100vw - (244px * 2));
+  font-family: "Inter-black", "Arial", sans-serif;
+}
+
+.header__subtitle {
+  font-size: 30px;
+  line-height: 1.2;
+  width: calc(100vw - (280px * 2));
+  text-align: center;
+  font-weight: 400;
+}
+
+.header__image {
+  width: calc(100vw - (148px * 2));
+}

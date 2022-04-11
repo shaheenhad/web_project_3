@@ -1,0 +1,13 @@
+.intro {
+  max-width: 100%;
+  background-color: #2a2c2f;
+}
+
+.intro__content {
+  max-width: 785px;
+  margin-left: 148px;
+}
+
+.intro__title {
+  margin: 0;
+}
