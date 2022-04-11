@@ -9,5 +9,24 @@
 }
 
 .intro__title {
+  margin: 0 0 40px 0;
+  font-size: 54px;
+  font-family: "Inter-black", "Arial", sans-serif;
+  line-height: 1.07;
+}
+
+.intro__quote {
+  margin: 0 0 10px 0;
+  max-width: 720px;
+}
+
+.intro__quote-author {
+  max-width: 720px;
+  text-align: right;
+  margin: 0 0 32px 0;
+}
+
+.intro__paragraph {
   margin: 0;
+  max-width: 720px;
 }

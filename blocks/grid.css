@@ -1,0 +1,18 @@
+.grid {
+  background-color: #2a2c2f;
+  padding: 10% 0 10%;
+}
+
+.grid__photos {
+  max-width: calc((100vw - (48px * 2)));
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 16px 16px;
+}
+
+.grid__photo {
+  margin: 0;
+  width: 100%;
+}
