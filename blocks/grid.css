@@ -1,10 +1,10 @@
 .grid {
   background-color: #2a2c2f;
-  padding: 10% 0 10%;
+  padding: 118px 0 92px;
 }
 
 .grid__photos {
-  max-width: calc((100vw - (48px * 2)));
+  max-width: 1184px;
   margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -15,4 +15,27 @@
 .grid__photo {
   margin: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .grid {
+    padding: 90px 0 88px;
+  }
+  .grid__photos {
+    max-width: 720px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .grid {
+    padding: 90px 0 62px;
+  }
+
+  .grid__photos {
+    max-width: 288px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(8, 1fr);
+  }
 }
