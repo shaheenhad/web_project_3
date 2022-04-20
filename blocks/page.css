@@ -1,6 +1,7 @@
 .page {
   background-color: #2a2c2f;
-  font-family: "Inter-regular", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
   color: white;
